@@ -1,3 +1,4 @@
+
 $(function() {
     var $name = $('#name'),
         $phone = $('#phone'),
@@ -87,4 +88,4 @@ $(function() {
         
     });
     
-});
+})

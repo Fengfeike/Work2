@@ -1,7 +1,11 @@
 module.exports = function (grunt) {
   grunt.initConfig({
-    uglify:{
-      './dist/index.js' : './index.js'
+    uglify: {
+      files: {
+        src: './index.js',
+        dest: 'dist/index.js'
+        }
+      }
     }
   });
 

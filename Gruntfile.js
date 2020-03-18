@@ -1,15 +1,13 @@
 module.exports = function (grunt) {
   grunt.initConfig({
     uglify: {
-      files: {
-        src: './index.js',
-        dest: 'dist/index.js'
-        }
-      }
-    }
+      './dist/index.js':'../index.js'       
+  }
+               
   });
 
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+      grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['uglify']); 
+      grunt.registerTask('default', ['uglify']); 
+
 };
